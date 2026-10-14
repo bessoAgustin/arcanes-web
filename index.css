@@ -12,4 +12,8 @@
   --color-accent-hover: #D97005;
   --color-accent-secondary: #3997CB;
   --h1-emphasis: #1E6F9E;
+
+  --font-heading: "Quicksand", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  
 }
