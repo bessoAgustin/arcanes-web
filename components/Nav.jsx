@@ -21,13 +21,13 @@ const links = [
 
 const Nav = () => {
     return (
-        <header className="bg-bg-main border-b border-border">
-            <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-4">
+        <header className="bg-bg-main border-b-2 border-border">
+            <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
                 <img src={logo} alt="Arcanes, entrenamiento y psicología canina" className="w-auto h-12" />
                 <nav>
                     <ul className="flex gap-4">
                         {links.map((link) => (
-                            <li key={link.href} className="text-text-main font-body text-sm font-medium hover:text-accent-secondary hover:underline transition-colors duration-300">
+                            <li key={link.href} className="text-text-main font-body text-md font-medium hover:text-accent-secondary hover:underline transition-colors duration-300">
                                 <a href={link.href}>{link.name}</a>
                             </li>
                         ))}
