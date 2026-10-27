@@ -3,19 +3,19 @@ import logo from '../assets/logo-arcanes-web.svg';
 const links = [
     {
         name: 'Sobre nosotros',
-        href: '#sobre-nosotros'
+        href: '#about-us'
     },
     {
         name: 'Servicios',
-        href: '#servicios'
+        href: '#services'
     },
     {
         name: 'Metodología',
-        href: '#metodologia'
+        href: '#methodology'
     },
     {
         name: 'Contacto',
-        href: '#contacto'
+        href: '#contact'
     }
 ]
 

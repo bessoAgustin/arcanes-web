@@ -4,7 +4,7 @@ import hero640 from '../assets/hero_640.webp';
 
 const Hero = () => {
     return (
-        <section className="bg-bg-main">
+        <section className="bg-bg-main" id='hero'>
             <div className="max-w-5xl mx-auto flex flex-col py-20 gap-8">
                 <h1 className="text-5xl font-semibold text-center font-heading mx-auto">
                     Proporcionar <span className="text-h1-emphasis">comprensión</span>, <span className="text-h1-emphasis">educación</span> y una buena <span className="text-h1-emphasis">comunicación</span> a tu perro es tan importante y necesario como <span className="text-h1-emphasis">darle amor</span>.

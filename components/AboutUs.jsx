@@ -5,7 +5,7 @@ import paws from '../assets/paws.svg'
 
 const AboutUs = () => {
     return (
-        <section className='bg-bg-muted'>
+        <section className='bg-bg-muted' id='about-us'>
             <div className='max-w-5xl mx-auto flex flex-col items-center justify-center py-8 gap-10'>
                 <div className='flex gap-3'>
                     <img src={paws}/>
