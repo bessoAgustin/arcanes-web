@@ -1,23 +1,5 @@
 import logo from '../assets/logo-arcanes-web.svg';
-
-const links = [
-    {
-        name: 'Sobre nosotros',
-        href: '#about-us'
-    },
-    {
-        name: 'Servicios',
-        href: '#services'
-    },
-    {
-        name: 'Metodología',
-        href: '#methodology'
-    },
-    {
-        name: 'Contacto',
-        href: '#contact'
-    }
-]
+import links from '../data/links';
 
 const Nav = () => {
     return (
