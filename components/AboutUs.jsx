@@ -6,17 +6,17 @@ import paws from '../assets/paws.svg'
 const AboutUs = () => {
     return (
         <section className='bg-bg-muted' id='about-us'>
-            <div className='max-w-5xl mx-auto flex flex-col items-center justify-center py-8 gap-10'>
-                <div className='flex gap-3'>
+            <div className='section-container'>
+                <div className='h2-container'>
                     <img src={paws}/>
-                    <h2 className='font-heading font-medium text-4xl'>
+                    <h2 className='heading-2'>
                         ¿Qué es Arcanes?
                     </h2>
                 </div>
-                <p className='font-body text-center max-w-4xl text-2xl'>
+                <p className='p-body'>
                 Arcanes es un equipo de entrenadores caninos profesionales con una amplia formación y experiencia. A través de la educación, el entrenamiento y la rehabilitación del comportamiento, nos dedicamos a mejorar la comunicación, el entendimiento y la convivencia entre perros y personas. Ofrecemos varios servicios para mejorar la relación, calidad de vida y el bienestar entre ambas especies.
                 </p>
-                <button className="text-text-main font-medium text-2xl font-body rounded-2xl p-2 border-2 border-accent-secondary hover:bg-border">
+                <button className='btn-secondary'>
                     <a href="">Saber más</a>
                 </button>
                 <img
