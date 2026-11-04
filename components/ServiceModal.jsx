@@ -1,16 +1,14 @@
-import { useState } from 'react';
-import services from '../data/services';
+import { useRef, useEffect } from 'react';
 
-const ServiceModal = (title, body, callout, note, whatsappMessage) => {
+const ServiceModal = ({title, onClose}) => {
     return (
         <dialog className='fixed inset-0 bg-bg-surface/90 backdrop-blur-sm p-4 rounded-2xl max-w-2xl w-full mx-auto'>
             <h2>{title}</h2>
-            <p>{body}</p>
-            <p>{callout}</p>
-            <p>{note}</p>
-            <p>{whatsappMessage}</p>
-        </dialog>
-    )
-}
+                <button className='btn-secondary' onClick={onClose}>
+                    Cerrar
+                </button>
+    </dialog>
+  );
+};
 
-export default ServiceModal
+export default ServiceModal;
