@@ -1,6 +1,7 @@
 import paws from '../assets/paws.svg';
 import services from '../data/services';
 import ServiceCard from './ServiceCard';
+import ServiceModal from './ServiceModal';
 import { useState } from 'react';
 
 
@@ -8,17 +9,16 @@ const Services = () => {
 
     const [selectedId, setSelectedId] = useState(null);
 
-    const handleSelect = (id) => {
-        setSelectedId(id);
-    }
-    
     const selectedService = services.find((service) => {
         return service.id === selectedId;
     });
-
+    
+    const handleSelect = (id) => {
+        setSelectedId(id)
+    }
     //borrar cuando el modal ya esté en funcionamiento
     console.log(selectedId);
-    console.log(selectedService);
+    /* console.log(selectedService); */
     //
 
 
@@ -46,6 +46,14 @@ const Services = () => {
                 <p className='p-body'>
                     ¡Míranos en acción en nuestra <a href="" className='underline'>galería de imágenes</a>!
                 </p>
+
+                {
+                selectedService &&
+                <ServiceModal
+                    name={selectedService.name}
+                    onClose={() => setSelectedId(null)}
+                />
+                }
             </div>
         </section>
     )

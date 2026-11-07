@@ -1,13 +1,22 @@
 import { useRef, useEffect } from 'react';
 
-const ServiceModal = ({title, onClose}) => {
+const ServiceModal = ({name, onClose}) => {
+
+    const myRef = useRef(null);
+
+    useEffect(() => {
+        if(!myRef.current.open) {
+            myRef.current.showModal()
+        };
+    }, [])
+    
     return (
-        <dialog className='fixed inset-0 bg-bg-surface/90 backdrop-blur-sm p-4 rounded-2xl max-w-2xl w-full mx-auto'>
-            <h2>{title}</h2>
+        <dialog className='bg-bg-surface backdrop:bg-black/50 p-4 rounded-2xl max-w-2xl w-full m-auto' ref={myRef}>
+            <h2>{name}</h2>
                 <button className='btn-secondary' onClick={onClose}>
                     Cerrar
                 </button>
-    </dialog>
+        </dialog>
   );
 };
 
