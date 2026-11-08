@@ -12,7 +12,6 @@ const services = [
         id: 'service-cachorros',
         name: 'Escuela de Cachorros',
         image: cachorros,
-        title: 'Escuela de Cachorros',
         body: [
             'Ven a nuestra escuela de cachorros a divertirte y a educarlo de forma lúdica. Te ayudaremos a entender mejor sus necesidades, a comunicarte de forma asertiva y a lograr armonía en la convivencia familiar.',
             'Nuestra escuela de cachorros es la mejor alternativa para aprender en un espacio seguro, limpio, sin peligros y para socializar con más cachorros con la misma energía.'
@@ -25,7 +24,6 @@ const services = [
         id: 'service-obediencia',
         name: 'Curso de Obediencia y Comunicación',
         image: obediencia,
-        title: 'Curso de Obediencia y Comunicación',
         body: 'Con este curso aprenderás a:',
         list: [
             'Comunicarte con tu perro de forma clara y efectiva',
@@ -43,7 +41,6 @@ const services = [
         id: 'service-rehabilitacion',
         name: 'Rehabilitación del comportamiento',
         image: rehabilitacion,
-        title: 'Rehabilitación del Comportamiento',
         body: [
             'Hoy en día, por el gran estrés que se vive en las ciudades y por el ajetreado ritmo de vida que llevamos, los perros desarrollan varios problemas de comportamiento, además del aburrimiento, y otros ocasionados de manera inconsciente por sus propietarios o guías.',
             'Si estas pasando por alguna de estas situaciones, llámanos, podemos ayudarte:'
@@ -67,7 +64,6 @@ const services = [
         id: 'service-socializacion',
         name: 'Jornadas de Socialización',
         image: socializacion,
-        title: 'Jornadas de Socialización',
         body: [
             'Los perros, como nosotros, son seres sociables. Necesitan interacción con otros perros, drenar energía y comunicarse de forma equilibrada con sus semejantes para sentirse plenos. Se sienten en armonía y felices compartiendo y disfrutando con otros perros.',
             'Un perro sociable y equilibrado es aquel que interactúa desde la alegría, el juego y el contacto, con buenas intenciones, naturalidad y calma, tanto con sus semejantes, como con las personas, los niños y otras especies en cualquier entorno.'
@@ -80,7 +76,6 @@ const services = [
         id: 'services-paseador',
         name: 'Paseos Caninos',
         image: paseador,
-        title: 'Paseos Caninos',
         body: [
             'Nuestro servicio de paseador canino consiste en ofrecer paseos y socialización con recogida y entrega en tu domicilio.',
             'El objetivo de esta actividad es cubrir las necesidades sociales y recreativas de nuestros perros, dándoles libertad, bienestar y conexión con la naturaleza. Lo que todos los perros necesitan pero que muchos propietarios no tienen tiempo de brindar. Si es así, no te preocupes porque tú y tu perro estáis de suerte: ARCANES está en tu ciudad!',
@@ -95,7 +90,6 @@ const services = [
         id: 'service-actividades',
         name: 'Actividades Recreativas',
         image: actividades,
-        title: 'Actividades Recreativas',
         body: 'Durante todo el año hacemos varias actividades de recreación canina para integrarnos, acercarnos y disfrutar siempre de la naturaleza:',
         list: [
             'Socialización y Obediencia Urbana',
@@ -112,7 +106,6 @@ const services = [
         id: 'service-asesoramiento',
         name: 'Asesoramiento',
         image: asesoramiento,
-        title: 'Asesoramiento',
         body: 'Es frecuente en nuestros días que a la hora de elegir un perro cachorro, joven o adulto, nos dejemos influir por la apariencia y el aspecto físico, siendo muy común la frase: “lo vi y me enamoré”. Desde Arcanes entendemos esto y sabemos que es normal que ocurra. Pero hay ocasiones en las que por motivos de tiempo, trabajo o salud, no estamos preparados para tener cualquier tipo de perro. Por eso, por el bien del perro y del propietario, es ideal elegir en base a:',
         list: [
             'Nivel de energía',
@@ -129,7 +122,6 @@ const services = [
         id: 'service-talleres',
         name: 'Charlas y Talleres',
         image: talleres,
-        title: 'Charlas y Talleres',
         body: '¡Mantente informado/a de cuándo será nuestro próximo encuentro (presencial o virtual) sobre los temas que más te interesan de tu peludo!',
         callout: '',
         note: '',

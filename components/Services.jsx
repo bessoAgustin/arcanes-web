@@ -16,13 +16,7 @@ const Services = () => {
     const handleSelect = (id) => {
         setSelectedId(id)
     }
-    //borrar cuando el modal ya esté en funcionamiento
-    console.log(selectedId);
-    /* console.log(selectedService); */
-    //
-
-
-
+    
     return (
         <section id='services'>
             <div className='section-container'>
@@ -51,6 +45,7 @@ const Services = () => {
                 selectedService &&
                 <ServiceModal
                     name={selectedService.name}
+                    body={selectedService.body}
                     onClose={() => setSelectedId(null)}
                 />
                 }
