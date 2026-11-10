@@ -16,15 +16,17 @@ const services = [
             'Ven a nuestra escuela de cachorros a divertirte y a educarlo de forma lúdica. Te ayudaremos a entender mejor sus necesidades, a comunicarte de forma asertiva y a lograr armonía en la convivencia familiar.',
             'Nuestra escuela de cachorros es la mejor alternativa para aprender en un espacio seguro, limpio, sin peligros y para socializar con más cachorros con la misma energía.'
         ],
-        callout: 'Enseñamos siempre en POSITIVO.',
-        note: 'El curso para cachorros es PARTICULAR desde los 2 a los 6 meses.',
+        note: 'Enseñamos siempre en POSITIVO.',
+        callout: 'El curso para cachorros es PARTICULAR desde los 2 a los 6 meses.',
         whatsappMessage: 'Hola Arcanes! Quisiera más información sobre la Escuela de Cachorros.'
     },
     {
         id: 'service-obediencia',
         name: 'Curso de Obediencia y Comunicación',
         image: obediencia,
-        body: 'Con este curso aprenderás a:',
+        body: [
+            'Los perros tienen una gran capacidad de aprendizaje y adaptación, así que nunca es tarde para mejorar la comunicación con ellos. Cuanto antes empieces, antes conseguirás un perro equilibrado, sociable y feliz, con control de impulsos y autocontrol en las situaciones que lo requieran.',
+            'Con este curso aprenderás a:'],
         list: [
             'Comunicarte con tu perro de forma clara y efectiva',
             'Mantener la calma en situaciones de estrés',
@@ -43,7 +45,7 @@ const services = [
         image: rehabilitacion,
         body: [
             'Hoy en día, por el gran estrés que se vive en las ciudades y por el ajetreado ritmo de vida que llevamos, los perros desarrollan varios problemas de comportamiento, además del aburrimiento, y otros ocasionados de manera inconsciente por sus propietarios o guías.',
-            'Si estas pasando por alguna de estas situaciones, llámanos, podemos ayudarte:'
+            'Si estás pasando por alguna de estas situaciones, llámanos, podemos ayudarte:'
         ],
         list: [
             'Reactividad hacia otros perros o personas', 
@@ -73,7 +75,7 @@ const services = [
         whatsappMessage: 'Hola Arcanes! Quisiera más información sobre las Jornadas de Socialización.'
     },
     {
-        id: 'services-paseador',
+        id: 'service-paseador',
         name: 'Paseos Caninos',
         image: paseador,
         body: [
@@ -90,7 +92,7 @@ const services = [
         id: 'service-actividades',
         name: 'Actividades Recreativas',
         image: actividades,
-        body: 'Durante todo el año hacemos varias actividades de recreación canina para integrarnos, acercarnos y disfrutar siempre de la naturaleza:',
+        body: ['Durante todo el año hacemos varias actividades de recreación canina para integrarnos, acercarnos y disfrutar siempre de la naturaleza:'],
         list: [
             'Socialización y Obediencia Urbana',
             'Excursiones a la Naturaleza (playa y montaña)',
@@ -106,7 +108,9 @@ const services = [
         id: 'service-asesoramiento',
         name: 'Asesoramiento',
         image: asesoramiento,
-        body: 'Es frecuente en nuestros días que a la hora de elegir un perro cachorro, joven o adulto, nos dejemos influir por la apariencia y el aspecto físico, siendo muy común la frase: “lo vi y me enamoré”. Desde Arcanes entendemos esto y sabemos que es normal que ocurra. Pero hay ocasiones en las que por motivos de tiempo, trabajo o salud, no estamos preparados para tener cualquier tipo de perro. Por eso, por el bien del perro y del propietario, es ideal elegir en base a:',
+        body: [
+            'Es frecuente en nuestros días que a la hora de elegir un perro cachorro, joven o adulto, nos dejemos influir por la apariencia y el aspecto físico, siendo muy común la frase: “lo vi y me enamoré”. Desde Arcanes entendemos esto y sabemos que es normal que ocurra. Pero hay ocasiones en las que por motivos de tiempo, trabajo o salud, no estamos preparados para tener cualquier tipo de perro. Por eso, por el bien del perro y del propietario, es ideal elegir en base a:'
+        ],
         list: [
             'Nivel de energía',
             'Temperamento',
@@ -122,7 +126,7 @@ const services = [
         id: 'service-talleres',
         name: 'Charlas y Talleres',
         image: talleres,
-        body: '¡Mantente informado/a de cuándo será nuestro próximo encuentro (presencial o virtual) sobre los temas que más te interesan de tu peludo!',
+        body: ['¡Mantente informado/a de cuándo será nuestro próximo encuentro (presencial o virtual) sobre los temas que más te interesan de tu peludo!'],
         callout: '',
         note: '',
         whatsappMessage: 'Hola Arcanes! Quisiera saber cuándo es vuestra siguiente charla o taller.'

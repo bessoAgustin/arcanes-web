@@ -1,5 +1,5 @@
 import logo from '../assets/logo-arcanes-web.svg';
-import links from '../data/links';
+import links from '../data/nav-links';
 
 const Nav = () => {
     return (

@@ -1,6 +1,7 @@
 import heroOriginal from '../assets/hero.webp';
 import hero1000 from '../assets/hero_1000.webp';
 import hero640 from '../assets/hero_640.webp';
+import { phone } from '../data/contact';
 
 const Hero = () => {
     return (
@@ -13,16 +14,12 @@ const Hero = () => {
                     En Arcanes educamos, entrenamos y rehabilitamos el comportamiento para mejorar la relación entre perros y personas con pasión, respeto y mucho cariño.
                 </p>
                 <div className="flex gap-3 items-center justify-center">
-                    <button className="btn-primary">
-                        <a href="">
-                            Pide cita
-                        </a>
-                    </button>
-                    <button className="btn-secondary">
-                        <a href="">
+                    <a href={`https://wa.me/${phone}?text=${encodeURIComponent('Hola, me gustaría agendar una cita.')}`} target="_blank" rel="noopener noreferrer" className='btn btn-primary text-center'>
+                        Pide cita
+                    </a>
+                    <a href="#services" className='btn btn-secondary text-center'>
                             Ver servicios
-                        </a>
-                    </button>
+                    </a>
                 </div>
                 <figure>
                     <img

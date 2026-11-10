@@ -17,6 +17,8 @@ const Services = () => {
         setSelectedId(id)
     }
     
+    console.log('Selected Service:', selectedService);
+
     return (
         <section id='services'>
             <div className='section-container'>
@@ -44,8 +46,7 @@ const Services = () => {
                 {
                 selectedService &&
                 <ServiceModal
-                    name={selectedService.name}
-                    body={selectedService.body}
+                    service = {selectedService}
                     onClose={() => setSelectedId(null)}
                 />
                 }

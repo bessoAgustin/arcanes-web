@@ -16,9 +16,9 @@ const AboutUs = () => {
                 <p className='p-body'>
                 Arcanes es un equipo de entrenadores caninos profesionales con una amplia formación y experiencia. A través de la educación, el entrenamiento y la rehabilitación del comportamiento, nos dedicamos a mejorar la comunicación, el entendimiento y la convivencia entre perros y personas. Ofrecemos varios servicios para mejorar la relación, calidad de vida y el bienestar entre ambas especies.
                 </p>
-                <button className='btn-secondary'>
-                    <a href="">Saber más</a>
-                </button>
+                <a className='btn btn-secondary text-center'>
+                        Saber más
+                </a>
                 <img
                     className='w-full max-w-4xl aspect-video object-cover rounded-3xl'
                     src={aboutUs}

@@ -20,6 +20,7 @@
 }
 
 @layer base {
+
   h1, h2, h3 {
     text-wrap: balance;
     font-family: var(--font-heading);
@@ -28,25 +29,41 @@
     text-wrap: pretty;
     font-family: var(--font-body);
   }
+
 }
 
 @layer components {
+  
+  .btn {
+    @apply border text-text-main font-medium font-body rounded-2xl p-2 w-48.5 h-13 inline-flex items-center justify-center
+  }
+
   .btn-primary {
-    @apply bg-accent-primary border-accent-hover border hover:bg-accent-hover text-text-main font-medium text-3xl font-body rounded-2xl p-2 w-48.5 h-13
+    @apply bg-accent-primary border-accent-hover border hover:bg-accent-hover text-3xl
   }
+
   .btn-secondary {
-    @apply text-text-main font-medium text-3xl w-48.5 h-13 font-body rounded-2xl p-2 border-2 border-accent-secondary hover:bg-border
+    @apply border-2 border-accent-secondary hover:bg-border text-3xl
   }
+
+  .btn-sm {
+    @apply text-2xl p-0.5 w-40
+  }
+
   .heading-2 {
     @apply font-heading font-medium text-4xl
   }
+
   .p-body {
     @apply font-body text-center max-w-4xl text-2xl
   }
+
   .h2-container{
     @apply flex gap-3
   }
+
   .section-container{
     @apply max-w-5xl mx-auto flex flex-col items-center justify-center py-8 gap-10
   }
+
 }
