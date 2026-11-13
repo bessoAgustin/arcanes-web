@@ -17,8 +17,6 @@ const Services = () => {
         setSelectedId(id)
     }
     
-    console.log('Selected Service:', selectedService);
-
     return (
         <section id='services'>
             <div className='section-container'>

@@ -19,10 +19,9 @@ const ServiceModal = ({ service, onClose }) => {
         myRef.current.close();
     }
 
-    console.log('Type of body:', typeof body, 'Value:', body);
     return (
-        <dialog className='bg-bg-surface backdrop:bg-black/50 rounded-2xl max-w-2xl w-full m-auto' ref={myRef} onClose={onClose} closedby='any' aria-labelledby='modal-title'>
-            <div className='p-4 gap-2 flex flex-col'>
+        <dialog className='modal' ref={myRef} onClose={onClose} closedby='any' aria-labelledby='modal-title'>
+            <div className='modal-container'>
                 <h2 className='heading-2' id='modal-title'>{name}</h2>
                 {body?.map((paragraph) => (
                     <p key={paragraph}>{paragraph}</p>
@@ -40,9 +39,9 @@ const ServiceModal = ({ service, onClose }) => {
                     <a href={`https://wa.me/${phone}?text=${encodeURIComponent(service.whatsappMessage)}`} target='_blank' rel='noopener noreferrer' className='btn btn-primary btn-sm'>
                         Me interesa
                     </a>
-                    <button className='btn btn-secondary btn-sm' onClick={closeModal}>
+                    <a className='btn btn-secondary btn-sm' onClick={closeModal}>
                         Cerrar
-                    </button>
+                    </a>
                 </div>
             </div>
         </dialog>

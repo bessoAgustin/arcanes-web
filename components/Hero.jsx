@@ -17,7 +17,7 @@ const Hero = () => {
                     <a href={`https://wa.me/${phone}?text=${encodeURIComponent('Hola, me gustaría agendar una cita.')}`} target="_blank" rel="noopener noreferrer" className='btn btn-primary text-center'>
                         Pide cita
                     </a>
-                    <a href="#services" className='btn btn-secondary text-center'>
+                    <a href="#services" className='btn btn-secondary text-center' >
                             Ver servicios
                     </a>
                 </div>

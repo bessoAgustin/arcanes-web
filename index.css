@@ -35,7 +35,7 @@
 @layer components {
   
   .btn {
-    @apply border text-text-main font-medium font-body rounded-2xl p-2 w-48.5 h-13 inline-flex items-center justify-center
+    @apply border text-text-main font-medium font-body rounded-2xl p-2 w-48.5 h-13 inline-flex items-center justify-center cursor-pointer
   }
 
   .btn-primary {
@@ -54,6 +54,10 @@
     @apply font-heading font-medium text-4xl
   }
 
+  .heading-3 {
+    @apply font-heading font-medium text-3xl
+  }
+
   .p-body {
     @apply font-body text-center max-w-4xl text-2xl
   }
@@ -64,6 +68,14 @@
 
   .section-container{
     @apply max-w-5xl mx-auto flex flex-col items-center justify-center py-8 gap-10
+  }
+
+  .modal {
+    @apply bg-bg-surface backdrop:bg-black/50 rounded-2xl max-w-2xl w-full m-auto
+  }
+
+  .modal-container {
+    @apply p-6 gap-3 flex flex-col items-center justify-center
   }
 
 }
