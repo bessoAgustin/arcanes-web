@@ -13,11 +13,11 @@ const Hero = () => {
                 <p className="font-body text-text-main text-center text-3xl mx-auto font-normal max-w-3xl">
                     En Arcanes educamos, entrenamos y rehabilitamos el comportamiento para mejorar la relación entre perros y personas con pasión, respeto y mucho cariño.
                 </p>
-                <div className="flex gap-3 items-center justify-center">
-                    <a href={`https://wa.me/${phone}?text=${encodeURIComponent('Hola, me gustaría agendar una cita.')}`} target="_blank" rel="noopener noreferrer" className='btn btn-primary text-center'>
+                <div className="grid grid-flow-col auto-cols-fr w-fit mx-auto gap-3 items-center justify-center">
+                    <a href={`https://wa.me/${phone}?text=${encodeURIComponent('Hola, me gustaría agendar una cita.')}`} target="_blank" rel="noopener noreferrer" className='btn btn-primary w-full'>
                         Pide cita
                     </a>
-                    <a href="#services" className='btn btn-secondary text-center' >
+                    <a href="#services" className='btn btn-secondary' >
                             Ver servicios
                     </a>
                 </div>

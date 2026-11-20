@@ -6,6 +6,7 @@ import Hero from './components/Hero.jsx'
 import AboutUs from './components/AboutUs.jsx'
 import Services from './components/Services.jsx'
 import School from './components/School.jsx'
+import Methodology from './components/Methodology'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <AboutUs />
     <Services />
     <School />
+    <Methodology />
   </StrictMode>,
 )

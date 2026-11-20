@@ -35,15 +35,15 @@
 @layer components {
   
   .btn {
-    @apply border text-text-main font-medium font-body rounded-2xl p-2 w-48.5 h-13 inline-flex items-center justify-center cursor-pointer
+    @apply border text-text-main font-medium font-body text-center rounded-2xl p-2 w-fit h-fit whitespace-nowrap inline-flex items-center justify-center cursor-pointer text-balance text-3xl
   }
 
   .btn-primary {
-    @apply bg-accent-primary border-accent-hover border hover:bg-accent-hover text-3xl
+    @apply bg-accent-primary border-2 border-accent-hover border hover:bg-accent-hover
   }
 
   .btn-secondary {
-    @apply border-2 border-accent-secondary hover:bg-border text-3xl
+    @apply border-2 border-accent-secondary hover:bg-border
   }
 
   .btn-sm {
@@ -51,15 +51,15 @@
   }
 
   .heading-2 {
-    @apply font-heading font-medium text-4xl
+    @apply font-heading font-medium text-4xl text-text-main
   }
 
   .heading-3 {
-    @apply font-heading font-medium text-3xl
+    @apply font-heading font-medium text-3xl text-text-main
   }
 
   .p-body {
-    @apply font-body text-center max-w-4xl text-2xl
+    @apply font-body text-center max-w-4xl text-2xl text-text-main
   }
 
   .h2-container{
@@ -75,7 +75,7 @@
   }
 
   .modal-container {
-    @apply p-6 gap-3 flex flex-col items-center justify-center
+    @apply p-6 gap-3 flex flex-col
   }
 
 }
