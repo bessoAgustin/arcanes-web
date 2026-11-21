@@ -6,7 +6,7 @@ import formacion640 from '../assets/formacion640.webp';
 
 const School = () => {
     return (
-        <section className='bg-bg-muted'>
+        <section className='bg-bg-muted' id='school'>
             <div className='section-container'>
                 <div className='h2-container'>
                     <img src={paws} alt=''/>

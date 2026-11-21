@@ -75,7 +75,11 @@
   }
 
   .modal-container {
-    @apply p-6 gap-3 flex flex-col
+    @apply p-6 gap-3 flex flex-col items-center text-center
+  }
+
+  .modal-body {
+    @apply flex flex-col gap-3 text-start
   }
 
 }

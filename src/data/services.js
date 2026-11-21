@@ -41,7 +41,7 @@ const services = [
     },
     {
         id: 'service-rehabilitacion',
-        name: 'Rehabilitación del comportamiento',
+        name: 'Rehabilitación del Comportamiento',
         image: rehabilitacion,
         body: [
             'Hoy en día, por el gran estrés que se vive en las ciudades y por el ajetreado ritmo de vida que llevamos, los perros desarrollan varios problemas de comportamiento, además del aburrimiento, y otros ocasionados de manera inconsciente por sus propietarios o guías.',
