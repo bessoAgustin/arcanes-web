@@ -1,5 +1,5 @@
-import GoogleReviewsWidget from 'google-reviews-widget';
-import paws from '../assets/paws.svg';
+/* import GoogleReviewsWidget from 'google-reviews-widget';
+ */import paws from '../assets/paws.svg';
 
 const Reviews = () => {
   return (
@@ -9,8 +9,8 @@ const Reviews = () => {
                 <img src={paws} alt=''/>
                 <h2 className='heading-2'>Reseñas</h2>
             </div>
-            <GoogleReviewsWidget instanceId="TE9bnFpP4WP8nw9LkD4w" />
-        </div>
+{/*             <GoogleReviewsWidget instanceId="TE9bnFpP4WP8nw9LkD4w" />
+ */}        </div>
     </section>
     )
 }
