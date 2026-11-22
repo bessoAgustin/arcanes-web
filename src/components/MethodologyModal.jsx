@@ -19,8 +19,8 @@ const MethodologyModal = ({ method, onClose }) => {
     }
 
     return (
-        <dialog className='modal' ref={myRef} onClose={onClose} closedby='any' aria-labelledby='modal-title'>
-            <div className='modal-container text-center'>
+        <dialog className='modal max-w-md' ref={myRef} onClose={onClose} closedby='any' aria-labelledby='modal-title'>
+            <div className='modal-container gap-6'>
                 <img src={image} alt='' className='' />
                 <h2 className='heading-2' id='modal-title'>{title}</h2>
                 <p className='max-w-md mx-auto'>{description}</p>

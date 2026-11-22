@@ -23,7 +23,7 @@ const Methodology = () => {
                     <img src={paws} alt=''/>
                     <h2 className='heading-2'>Metodología</h2>
                 </div>
-                <h3 className="heading-3">Sistema Holístico</h3>
+                <h3 className="heading-3 underline font-normal italic">Sistema Holístico</h3>
                 <p className="p-body max-w-3xl mx-auto text-center">
                     Trabajamos en equipo con nuestros perros rehabilitadores, los guías y tu perro. Siempre consideramos que cada perro y situación son únicas, por lo que utilizamos un amplio repertorio de recursos y metodologías, dependiendo de cada caso.
                 </p>

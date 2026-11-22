@@ -25,9 +25,17 @@
     text-wrap: balance;
     font-family: var(--font-heading);
   }
+
   p {
     text-wrap: pretty;
     font-family: var(--font-body);
+  }
+
+  input, textarea{
+    background-color: var(--color-bg-surface);
+    border-radius: 1rem;
+    padding: 0.75rem;
+    width: 100%;
   }
 
 }
@@ -80,6 +88,10 @@
 
   .modal-body {
     @apply flex flex-col gap-3 text-start
+  }
+
+  .input {
+    @apply bg-bg-surface rounded-2xl
   }
 
 }
