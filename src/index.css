@@ -71,11 +71,11 @@
   }
 
   .h2-container{
-    @apply flex gap-3
+    @apply flex gap-3 p-6
   }
 
   .section-container{
-    @apply max-w-5xl mx-auto flex flex-col items-center justify-center py-8 gap-10
+    @apply max-w-5xl mx-auto flex flex-col items-center justify-center py-10 gap-10 px-4
   }
 
   .modal {
@@ -92,6 +92,10 @@
 
   .input {
     @apply bg-bg-surface rounded-2xl
+  }
+
+  .contact {
+    @apply flex justify-center items-center gap-x-2
   }
 
 }

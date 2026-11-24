@@ -17,17 +17,17 @@ const Contact = () => {
                     <textarea placeholder="Tu mensaje"></textarea>
                     <button type="submit" className="btn btn-primary text-2xl p-1 w-1/2 mt-2">Enviar</button>
                 </div>
-                <p className="p-body text-center max-w-lg">¿Prefieres consultar en persona?<br /><br />Visítanos en nuestro local, donde brindamos asesoramiento canino y en nuestra tienda ofrecemos artículos especializados, alimentación natural para tu perro y muchas sorpresas más.<br /><br />¡Te va a encantar nuestra GUARIDA URBANA canina!</p>
+                <p className="p-body text-center max-w-xl">¿Prefieres consultar en persona?<br /><br />Visítanos en nuestro local, donde brindamos asesoramiento canino y en nuestra tienda ofrecemos artículos especializados, alimentación natural para tu perro y muchas sorpresas más.<br /><br />¡Te va a encantar nuestra GUARIDA URBANA canina!</p>
                 <div className="flex flex-col gap-y-4 max-w-3xl mx-auto mt-4 items-start">
-                    <div className="flex justify-center items-center gap-x-2">
+                    <div className="contact">
                         <img src={location} alt=''/>
                         <a href="https://maps.app.goo.gl/Np3TXD76vE79sNgU8" target="_blank" rel="noopener noreferrer" className="p-body text-lg underline">Av. de la Plata 111, Quatre Carreres, València (46006)</a>
                     </div>
-                    <div className="flex justify-center items-center gap-x-2">
+                    <div className="contact">
                         <img src={phone} alt=''/>
                         <a href="tel:+34695724495" className="p-body text-lg underline">(+34) 695 724 495</a>
                     </div>
-                    <div className="flex justify-center items-center gap-x-2">
+                    <div className="contact">
                         <img src={clock} alt=''/>
                         <p className="p-body text-lg">Lun-Mié: 5:00 PM - 9:00 PM</p>
                     </div>

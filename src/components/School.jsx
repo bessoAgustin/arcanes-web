@@ -12,7 +12,7 @@ const School = () => {
                     <img src={paws} alt=''/>
                     <h2 className='heading-2'>Formación</h2>
                 </div>
-                <p className='p-body max-w-2xl'>
+                <p className='p-body max-w-xl'>
                     Haz de tu vocación una profesión y fórmate con nosotros como entrenador/a en psicología canina.
                 </p>
                     <a

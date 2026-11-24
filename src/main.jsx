@@ -9,6 +9,7 @@ import School from './components/School.jsx';
 import Methodology from './components/Methodology';
 import Contact from './components/Contact';
 import Reviews from './components/Reviews';
+import Footer from './components/Footer';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,5 +21,6 @@ createRoot(document.getElementById('root')).render(
     <Methodology />
     <Contact />
     <Reviews />
+    <Footer />
   </StrictMode>,
 )

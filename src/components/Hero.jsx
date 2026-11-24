@@ -6,7 +6,7 @@ import { phone } from '../data/contact';
 const Hero = () => {
     return (
         <section className="bg-bg-main" id='hero'>
-            <div className="section-container py-20">
+            <div className="section-container py-24">
                 <h1 className="text-5xl font-semibold text-center font-heading mx-auto">
                     Proporcionar <span className="text-h1-emphasis">comprensión</span>, <span className="text-h1-emphasis">educación</span> y una buena <span className="text-h1-emphasis">comunicación</span> a tu perro es tan importante y necesario como <span className="text-h1-emphasis">darle amor</span>.
                 </h1>
