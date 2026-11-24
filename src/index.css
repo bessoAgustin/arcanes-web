@@ -47,7 +47,7 @@
   }
 
   .btn-primary {
-    @apply bg-accent-primary border-2 border-accent-hover border hover:bg-accent-hover
+    @apply bg-accent-primary border-2 border-accent-hover hover:bg-accent-hover
   }
 
   .btn-secondary {

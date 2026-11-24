@@ -27,7 +27,7 @@ const Methodology = () => {
                 <p className="p-body max-w-3xl mx-auto text-center">
                     Trabajamos en equipo con nuestros perros rehabilitadores, los guías y tu perro. Siempre consideramos que cada perro y situación son únicas, por lo que utilizamos un amplio repertorio de recursos y metodologías, dependiendo de cada caso.
                 </p>
-                <ul className='flex w-full gap-x-4 gap-y-6 mt-8'>
+                <ul className='flex w-full gap-x-4 gap-y-6 mt-8 flex-wrap'>
                     {methodCards.map((card) => (
                         <li key={card.id} className='w-full'>
                             <MethodologyCard
