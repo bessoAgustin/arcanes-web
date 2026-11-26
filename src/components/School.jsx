@@ -9,7 +9,7 @@ const School = () => {
         <section className='bg-bg-muted' id='school'>
             <div className='section-container'>
                 <div className='h2-container'>
-                    <img src={paws} alt=''/>
+                    <img src={paws} alt='' className='paws'/>
                     <h2 className='heading-2'>Formación</h2>
                 </div>
                 <p className='p-body max-w-xl'>

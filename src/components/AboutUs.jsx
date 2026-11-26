@@ -18,7 +18,7 @@ const AboutUs = () => {
         <section className='bg-bg-muted' id='about-us'>
             <div className='section-container'>
                 <div className='h2-container'>
-                    <img src={paws} alt=''/>
+                    <img src={paws} alt='' className='paws'/>
                     <h2 className='heading-2'>
                         ¿Qué es Arcanes?
                     </h2>

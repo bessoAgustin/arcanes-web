@@ -37,7 +37,7 @@ const ServiceModal = ({ service, onClose }) => {
                     {callout && <p className='font-bold'>{callout}</p>}
                     {note && <p className='text-text-muted font-medium'>{note}</p>}
                 </div>
-                <div className='flex gap-4 justify-center mt-4'>
+                <div className='modal-btn-container'>
                     <a href={`https://wa.me/${phone}?text=${encodeURIComponent(service.whatsappMessage)}`} target='_blank' rel='noopener noreferrer' className='btn btn-primary btn-sm'>
                         Me interesa
                     </a>

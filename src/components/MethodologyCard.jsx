@@ -1,6 +1,6 @@
 const MethodologyCard = ({id, title, image, onSelect}) => {
     return (
-        <button type='button' className='flex flex-col gap-3 text-center bg-bg-surface shadow-md hover:shadow-lg transition-shadow duration-200 p-4 rounded-2xl w-full cursor-pointer focus-visible:ring justify-center items-center' onClick={() => {onSelect(id)}}>
+        <button type='button' className='flex flex-col gap-3 text-center bg-bg-surface shadow-md hover:shadow-lg transition-shadow duration-200 p-4 rounded-2xl w-full cursor-pointer focus-visible:ring justify-center items-center h-full' onClick={() => {onSelect(id)}}>
             <img
             src= {image}
             alt=""

@@ -9,7 +9,7 @@ const ServiceCard = ({id, name, image, onSelect}) => {
             width='640' height='640'
             decoding='async'
             />
-            <span className='flex font-semibold min-h-[2lh] items-center justify-center'>
+            <span className='flex font-semibold min-h-[3lh] lg:min-h-[2lh] items-center justify-center'>
                 {name}
             </span>
         </button>

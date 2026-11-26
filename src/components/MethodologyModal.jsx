@@ -19,12 +19,12 @@ const MethodologyModal = ({ method, onClose }) => {
     }
 
     return (
-        <dialog className='modal max-w-md' ref={myRef} onClose={onClose} closedby='any' aria-labelledby='modal-title'>
+        <dialog className='modal' ref={myRef} onClose={onClose} closedby='any' aria-labelledby='modal-title'>
             <div className='modal-container gap-6'>
                 <img src={image} alt='' className='' />
                 <h2 className='heading-2' id='modal-title'>{title}</h2>
                 <p className='max-w-md mx-auto'>{description}</p>
-                <a className='btn btn-secondary btn-sm' onClick={closeModal}>
+                <a className='btn btn-secondary' onClick={closeModal}>
                         Cerrar
                 </a>
             </div>

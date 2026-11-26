@@ -6,11 +6,11 @@ import { phone } from '../data/contact';
 const Hero = () => {
     return (
         <section className="bg-bg-main" id='hero'>
-            <div className="section-container py-24">
-                <h1 className="text-5xl font-semibold text-center font-heading mx-auto">
+            <div className="section-container py-12 md:py-16 lg:py-24">
+                <h1 className="text-2xl md:text-4xl lg:text-5xl font-semibold text-center mx-auto">
                     Proporcionar <span className="text-h1-emphasis">comprensión</span>, <span className="text-h1-emphasis">educación</span> y una buena <span className="text-h1-emphasis">comunicación</span> a tu perro es tan importante y necesario como <span className="text-h1-emphasis">darle amor</span>.
                 </h1>
-                <p className="font-body text-text-main text-center text-3xl mx-auto font-normal max-w-3xl">
+                <p className="text-text-main text-center text-xl md:text-2xl lg:text-3xl mx-auto max-w-3xl">
                     En Arcanes educamos, entrenamos y rehabilitamos el comportamiento para mejorar la relación entre perros y personas con pasión, respeto y mucho cariño.
                 </p>
                 <div className="grid grid-flow-col auto-cols-fr w-fit mx-auto gap-3 items-center justify-center">

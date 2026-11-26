@@ -21,10 +21,10 @@ const Services = () => {
         <section id='services'>
             <div className='section-container'>
                 <div className='h2-container'>
-                    <img src={paws} alt=''/>
+                    <img src={paws} alt='' className='paws'/>
                     <h2 className='heading-2'>Servicios</h2>
                 </div>
-                <ul className='grid grid-cols-4 gap-x-4 gap-y-6'>
+                <ul className='grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-6'>
                     {services.map((service) => (
                         <li key={service.id}>
                             <ServiceCard
